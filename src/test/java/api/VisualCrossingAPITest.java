@@ -15,6 +15,7 @@ public class VisualCrossingAPITest extends Driver {
 
     @Test(priority = 1)
     public void testVisualCrossingAPI() {
+
         try {
             VisualCrossingWebServices crossingWebServices = api.getCrossingWebServices(CITY_NAME, 200);
             String address = crossingWebServices.address;
